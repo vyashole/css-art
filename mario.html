@@ -1,0 +1,234 @@
+<html>
+
+<head>
+    <title>Pure CSS Mario</title>
+    <style>
+        .container {
+            display: grid;
+            width: 260px;
+            height: 360px;
+            padding: 20px;
+            grid-template-columns: repeat(13, 20px);
+            grid-template-rows: repeat(17, 20px);
+            background-color: #51C6Ff;
+        }
+
+        .red {
+            background: #FE0002;
+        }
+
+        .brown {
+            background: #6A0400;
+        }
+
+        .skin {
+            background: #FFD987;
+        }
+
+        .black {
+            background: #000000;
+        }
+
+        .blue {
+            background: #0001FC;
+        }
+
+        .yellow {
+            background: #FFFF00;
+        }
+
+        .hat1 {
+            grid-row: 2 / span 1;
+            grid-column: 4 / span 6;
+        }
+
+        .hat2 {
+            grid-row: 3 / span 1;
+            grid-column: 3 / span 10;
+        }
+
+        .head {
+            grid-row: 4 / span 5;
+            grid-column: 3 / span 8;
+        }
+
+        .nose {
+            grid-row: 5 / span 2;
+            grid-column: 11 / span 2;
+        }
+
+        .snoot {
+            grid-row: 6 / span 1;
+            grid-column: 13 / span 1;
+        }
+
+        .eye {
+            grid-row: 4 / span 2;
+            grid-column: 9 / span 1;
+        }
+
+        .mustache1 {
+            grid-row: 7 / span 1;
+            grid-column: 9 / span 4;
+        }
+
+        .mustache2 {
+            grid-row: 6 / span 1;
+            grid-column: 10 / span 1;
+        }
+
+        .chin {
+            grid-row: 8 / span 1;
+            grid-column: 11 / span 1;
+        }
+
+        .hair1 {
+            grid-row: 4 / span 1;
+            grid-column: 3 / span 3;
+        }
+
+        .hair2 {
+            grid-row: 5 / span 3;
+            grid-column: 2 / span 1;
+        }
+
+        .hair3 {
+            grid-row: 5 / span 2;
+            grid-column: 4 / span 1;
+        }
+
+        .hair4 {
+            grid-row: 6 / span 1;
+            grid-column: 5 / span 1;
+        }
+
+        .hair5 {
+            grid-row: 7 / span 1;
+            grid-column: 3 / span 1;
+        }
+
+        .torso {
+            grid-row: 9 / span 4;
+            grid-column: 3 / span 7;
+        }
+
+        .sleeves1 {
+            grid-row: 10 / span 1;
+            grid-column: 2 / span 10;
+        }
+
+        .sleeves2 {
+            grid-row: 11 / span 1;
+            grid-column: 1 / span 12;
+        }
+
+        .sleeves3 {
+            grid-row: 12 / span 1;
+            grid-column: 10 / span 1;
+        }
+
+        .hands {
+            grid-row: 12 / span 3;
+            grid-column: 1 / span 12;
+        }
+
+        .waist {
+            grid-row: 12 / span 3;
+            grid-column: 4 / span 6;
+        }
+
+        .pant1 {
+            grid-row: 14 / span 2;
+            grid-column: 8 / span 3;
+        }
+
+        .pant2 {
+            grid-row: 14 / span 2;
+            grid-column: 3 / span 3;
+        }
+
+        .left-shoe1 {
+            grid-row: 16 / span 2;
+            grid-column: 2 / span 3;
+        }
+
+        .left-shoe2 {
+            grid-row: 17 / span 1;
+            grid-column: 1 / span 1;
+        }
+
+        .right-shoe1 {
+            grid-row: 16 / span 2;
+            grid-column: 9 / span 3;
+        }
+
+        .right-shoe2 {
+            grid-row: 17 / span 1;
+            grid-column: 12 / span 1;
+        }
+
+        .left-brace {
+            grid-row: 9 / span 3;
+            grid-column: 5 / span 1;
+        }
+
+        .right-brace {
+            grid-row: 10 / span 2;
+            grid-column: 8 / span 1;
+        }
+
+        .brace-between {
+            grid-row: 11 / span 1;
+            grid-column: 5 / span 4;
+        }
+
+        .left-button {
+            grid-row: 12 / span 1;
+            grid-column: 5 / span 1;
+        }
+
+        .right-button {
+            grid-row: 12 / span 1;
+            grid-column: 8 / span 1;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="red hat1"></div>
+    <div class="red hat2"></div>
+    <div class="skin head"></div>
+    <div class="skin nose"></div>
+    <div class="skin snoot"></div>
+    <div class="black eye"></div>
+    <div class="black mustache1"></div>
+    <div class="black mustache2"></div>
+    <div class="skin chin"></div>
+    <div class="brown hair1"></div>
+    <div class="brown hair2"></div>
+    <div class="brown hair3"></div>
+    <div class="brown hair4"></div>
+    <div class="brown hair5"></div>
+    <div class="skin hands"></div>
+    <div class="red torso"></div>
+    <div class="red sleeves1"></div>
+    <div class="red sleeves2"></div>
+    <div class="red sleeves3"></div>
+    <div class="blue waist"></div>
+    <div class="blue pant1"></div>
+    <div class="blue pant2"></div>
+    <div class="blue left-brace"></div>
+    <div class="blue right-brace"></div>
+    <div class="blue brace-between"></div>
+    <div class="yellow left-button"></div>
+    <div class="yellow right-button"></div>
+    <div class="brown left-shoe1"></div>
+    <div class="brown left-shoe2"></div>
+    <div class="brown right-shoe1"></div>
+    <div class="brown right-shoe2"></div>
+</div>
+
+</body>
+
+</html>
